@@ -19,15 +19,17 @@ const Navbar = () => {
 					<Link to={HOME_ROUTE} className={styles.linked}>
 						Home
 					</Link>
+				</div>
+				<div className={styles.navbar_center}>
+					<img src='' alt='' />
+				</div>
+				<div className={styles.navbar_right}>
 					<Link to={LOGIN_ROUTE} className={styles.linked}>
 						Login
 					</Link>
 					<Link to={REGISTER_ROUTE} className={styles.linked}>
 						Sign Up
 					</Link>
-				</div>
-				<div className={styles.navbar_center}>
-					<img src="" alt="" />
 				</div>
 			</Container>
 		</div>

@@ -10,7 +10,8 @@
 	justify-content: space-between;
 }
 
-.navbar_left {
+.navbar_left,
+.navbar_right {
 	display: flex;
 	align-items: center;
 	gap: 20px;

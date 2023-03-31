@@ -1,4 +1,6 @@
+import Container from '../UI/Container/Container';
+
 const Home = () => {
-	return <div>Home</div>;
+	return <Container>Home</Container>;
 };
 export default Home;
