@@ -1,0 +1,8 @@
+.footer_wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: lightcoral;
+	border-top: 2px #000 solid;
+}

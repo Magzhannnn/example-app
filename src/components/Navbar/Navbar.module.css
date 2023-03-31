@@ -1,0 +1,29 @@
+.navbar_wrap {
+	width: 100%;
+	background-color: lightcoral;
+	border-bottom: 2px #000 solid;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar_left {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.linked {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+.linked:hover {
+	color: rgb(109, 110, 111);
+}
+
