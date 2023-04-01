@@ -1,0 +1,15 @@
+.auth-form {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+	/* height: 200px; */
+	padding: 15px 30px;
+	border-radius: 15px;
+	box-shadow: 10px 5px 10px 5px rgba(255, 0, 0, 0.525);
+}
+
+.login {
+	top: 45%;
+}
