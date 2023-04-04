@@ -1,7 +1,12 @@
-import styles from "./Home.module.css"
-import MyButton from '../../UI/MyButton/MyButton'
+import styles from './Home.module.css';
+import MyButton from '../../UI/MyButton/MyButton';
+import MyModal from '../../UI/MyModal/MyModal';
+import { isModal } from '../../store/modal/modal-reducer';
+import { useDispatch } from 'react-redux';
 
 const HomeBodyLeft = () => {
+	const dispatch = useDispatch();
+
 	return (
 		<div>
 			<div className={styles['home-body_title']}>Home everything</div>
@@ -19,8 +24,9 @@ const HomeBodyLeft = () => {
 			<MyButton
 				className={styles['home-body_btn']}
 				content='View'
-				onClickHandler={() => alert('Home Page View')}
+				onClickHandler={() => dispatch(isModal)}
 			/>
+			<MyModal />
 		</div>
 	);
 };
