@@ -1,7 +1,7 @@
 .navbar_wrap {
 	width: 100%;
 	background-color: lightcoral;
-	border-bottom: 2px #000 solid;
+	/* border-bottom: 2px #000 solid; */
 }
 
 .navbar {
