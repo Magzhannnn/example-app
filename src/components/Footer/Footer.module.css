@@ -6,3 +6,17 @@
 	background-color: lightcoral;
 	/* border-top: 2px #000 solid; */
 }
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-corp,
+.footer-country,
+.footer-year {
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}

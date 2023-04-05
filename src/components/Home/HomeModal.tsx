@@ -1,17 +1,20 @@
-import styles from './Home.module.css';
-import MyButton from '../../UI/MyButton/MyButton';
-import MyModal from '../../UI/MyModal/MyModal';
-import { isModal } from '../../store/modal/modal-reducer';
 import { useDispatch } from 'react-redux';
-import HomeModal from './HomeModal'
+import { isModal } from '../../store/modal/modal-reducer';
+import MyButton from '../../UI/MyButton/MyButton';
+import styles from './Home.module.css';
 
-const HomeBodyLeft = () => {
+const HomeModal = () => {
 	const dispatch = useDispatch();
 
+	const sendHomeHandler = () => {
+		console.log('Sent to email');
+		dispatch(isModal);
+	};
+
 	return (
-		<div>
-			<div className={styles['home-body_title']}>Home everything</div>
-			<div className={styles['home-body_text']}>
+		<div className={styles['home-modal']}>
+			<div className={styles['home-modal_title']}>Home Modal</div>
+			<div className={styles['home-modal_content']}>
 				Lorem Ipsum is simply dummy text of the printing and typesetting
 				industry. Lorem Ipsum has been the industry's standard dummy text ever
 				since the 1500s, when an unknown printer took a galley of type and
@@ -22,15 +25,8 @@ const HomeBodyLeft = () => {
 				with desktop publishing software like Aldus PageMaker including versions
 				of Lorem Ipsum.
 			</div>
-			<MyButton
-				className={styles['home-body_btn']}
-				content='View'
-				onClickHandler={() => dispatch(isModal)}
-			/>
-			<MyModal>
-				<HomeModal />
-			</MyModal>
+			<MyButton content='Send' onClickHandler={sendHomeHandler} />
 		</div>
 	);
 };
-export default HomeBodyLeft;
+export default HomeModal;

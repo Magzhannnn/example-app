@@ -25,7 +25,7 @@ const MyModal: React.FC<MyModalProps> = ({
 				className={styles.modal_exit}
 				onClickHandler={() => dispatch(isModal)}
 			/>
-			<div className={styles.modal_content}></div>
+			<div className={styles.modal_content}>{children}</div>
 		</div>
 	);
 };
