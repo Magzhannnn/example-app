@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Container from '../../UI/Container/Container';
 import {
 	ABOUT_ROUTE,
+	BOOKS_ROUTE,
 	HOME_ROUTE,
 	LOGIN_ROUTE,
 	REGISTER_ROUTE,
@@ -18,6 +19,9 @@ const Navbar = () => {
 					</Link>
 					<Link to={HOME_ROUTE} className={styles.linked}>
 						Home
+					</Link>
+					<Link to={BOOKS_ROUTE} className={styles.linked}>
+						Books
 					</Link>
 				</div>
 				<div className={styles.navbar_center}>

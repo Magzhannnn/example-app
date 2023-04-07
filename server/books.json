@@ -1,0 +1,56 @@
+{
+	"books": [
+		{
+			"id": 1,
+			"image": "../../image/book1.jpeg",
+			"name": "Қан мен тер",
+			"year": 2003,
+			"page": 120,
+			"price": 5700,
+			"count": 30,
+			"genre": "Лирика",
+			"author": "Мағжан Қастеев",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+			"category": "Easy"
+		},
+		{
+			"id": 2,
+			"image": "../../image/book2.jpeg",
+			"name": "Мансап",
+			"year": 2017,
+			"page": 102,
+			"price": 4500,
+			"count": 21,
+			"genre": "Фантастика",
+			"author": "Әзілхан Өзтеміров",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category": "Middle"
+		},
+		{
+			"id": 3,
+			"image": "../../image/book3.jpeg",
+			"name": "Зеленая миль",
+			"year": 2012,
+			"page": 185,
+			"price": 7820,
+			"count": 15,
+			"genre": "Поэзия",
+			"author": "Александр Густаф",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+			"category": "Hard"
+		},
+		{
+			"id": 4,
+			"image": "../../image/book4.jpeg",
+			"name": "Govard",
+			"year": 2021,
+			"page": 50,
+			"price": 2300,
+			"count": 5,
+			"genre": "Лирика",
+			"author": "Harry Kane",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category": "Middle"
+		}
+	]
+}
