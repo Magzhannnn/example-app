@@ -1,4 +1,3 @@
-
 .book-list {
 	margin: 30px 0;
 	display: flex;
@@ -16,7 +15,7 @@
 	border-radius: 12px;
 
 	transform: scale(1);
-  transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
 }
 
 .book-item:hover {
@@ -50,4 +49,48 @@
 
 span {
 	font-weight: bold;
+}
+
+.book-select_exit {
+	position: relative;
+	top: 15px;
+	left: -100px;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px 15px;
+}
+
+.book-select_title {
+	font-size: 65px;
+	font-weight: bold;
+	position: relative;
+	top: -47px;
+}
+
+.book-select_body {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 50px;
+}
+
+.book-select_left {
+	width: 600px;
+	max-height: 476px;
+	overflow-y: auto;
+}
+
+.book-select_content {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.book-select_right {
+	width: 500px;
+	height: 450px;
+	border: 1px #000 solid;
+}
+
+.book-select_addBtn {
+	margin-top: 20px;
 }

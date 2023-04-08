@@ -6,9 +6,9 @@ export interface IBook {
 	page: number;
 	price: number;
 	count: number;
-	genre: number;
+	genre: string;
 	author: string;
-	charact: string;
+	description: string;
 	category: string;
 }
 
