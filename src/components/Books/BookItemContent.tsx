@@ -18,6 +18,7 @@ const BookItemContent: React.FC<BookItemContentProps> = ({
 	return (
 		<div className={classes}>
 			<span>{title}:</span> {content}
+			{title === 'Price' && 'тг.'}
 		</div>
 	);
 };
