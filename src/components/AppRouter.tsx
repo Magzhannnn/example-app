@@ -11,7 +11,7 @@ const AppRouter = () => {
 			{privateRouter.map(({ path, Component }: IRouter) => (
 				<Route path={path} element={<Component />} key={path} />
 			))}
-			<Route path="/*" element={<Navigate to={ABOUT_ROUTE} />} />
+			{/* <Route path="/*" element={<Navigate to={ABOUT_ROUTE} />} /> */}
 		</Routes>
 	);
 };

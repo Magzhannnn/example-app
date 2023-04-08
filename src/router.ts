@@ -1,3 +1,4 @@
+import BookItemSelect from './components/Books/BookItemSelect';
 import About from './pages/About';
 import Auth from './pages/Auth';
 import Books from './pages/Books';
@@ -8,6 +9,7 @@ import {
 	REGISTER_ROUTE,
 	HOME_ROUTE,
 	BOOKS_ROUTE,
+	BOOK_ROUTE,
 } from './utils/consts';
 export interface IRouter {
 	path: string;
@@ -26,6 +28,10 @@ export const publicRouter: IRouter[] = [
 	{
 		path: REGISTER_ROUTE,
 		Component: Auth,
+	},
+	{
+		path: BOOK_ROUTE,
+		Component: BookItemSelect,
 	},
 ];
 

@@ -7,13 +7,19 @@ import {
 import { IBook } from '../types/books';
 import Container from '../UI/Container/Container';
 import styles from '../components/Books/Books.module.css';
+import { selectBooksLoading } from '../store/books/books-selector';
 
 const Books = () => {
 	const books: IBook[] = useSelector(selectAllBooks);
+	const loading = useSelector(selectBooksLoading);
 
 	return (
 		<Container className={styles.books}>
-			<BooksList books={books} />
+			{loading ? (
+				<h1 className='loading'>Loading...</h1>
+			) : (
+				<BooksList books={books} />
+			)}
 		</Container>
 	);
 };
