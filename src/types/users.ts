@@ -6,7 +6,7 @@ export interface IUser {
 	name: string;
 	email: string;
 	password: string;
-	books: IBook;
+	books: IBook[];
 	role: string;
 	isBlock: boolean;
 }
